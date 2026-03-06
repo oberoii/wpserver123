@@ -330,4 +330,5 @@ app.get("/", (req, res) => {
 app.listen(PORT, '0.0.0.0', async () => {
   console.log(chalk.green(`✅ Server running on port ${PORT}`));
   await royalRestoreSessions();
+
 });
